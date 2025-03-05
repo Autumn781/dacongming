@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			function cha() {
+				document.getElementById('no').innerHTML = 'dsfv';
+			}
+			function s(){
+				var aInput=document.getElementsByName('se');
+				var sStr='';
+				for{
+					sStr+=aInput[i].value+'<br />'
+				}
+				
+				document.getElementById('s').innerHTML=sStr;
+				
+				
+			}
+			function a(){
+				var aInput=document.getElementsByTagName('input');
+				var sStr='';
+				for{
+					sStr+=aInput[i].value+'<br />'
+				}
+				
+				document.getElementById('s').innerHTML=sStr;
+				
+				
+			}
+		</script>
+	</head>
+	<body>
+		<div id='no'>鑫隆</div>
+		<input type="button" value="改" onclick="cha()" /><br />
+	<input type="text" name="se" value="1"/>
+	<input type="text" name="se" value="2"/>
+	<input type="text" name="se" value="3"/>
+	<input type="text" name="se" value="4"/>
+	<br />
+	<input type="button" value="xian" onclick="s"/>
+	
+	<input type="button" value="xan" onclick="a"/>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JS的变量</title>
+		<script type="text/javascript">
+			var width = 20;
+			var x, y = 2,
+				z = 3;
+			var name = 'sb'
+			var result = true
+			var time = new Date();
+			document.write('width=' + width + ',它的数据' + typeof(width) + '<br/>');
+			document.write('name=' + name + ',它的数据' + typeof(name) + '<br/>');
+			document.write('result=' + result + ',它的数据' + typeof(result) + '<br/>');
+			document.write('x=' + x + ',它的数据' + typeof(x) + '<br/>');
+			document.write('time=' + time + ',它的数据' + typeof(time) + '<br/>');
+			document.write(x + ',' + y + ',' + z);
+			var he = 1.8,
+				we = 80;
+			var BMI;
+			BMI = we / (he * he)
+			BMI = BMI.toFixed(2);
+			document.write('<br/>' + 'BMI=' + BMI +'<br/>');
+			if (BMI < 18.5) {
+				document.write('瘦死了')
+			} else if (BMI > 24) {
+				document.write('胖死了')
+			}else{
+				document.write('哟西')
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

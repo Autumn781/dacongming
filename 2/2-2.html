@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			function op() {
+				window.open('adv.html')
+			}
+
+			function np() {
+				window.open('adv.html', "", "height=380,width=200,toolbar=0,location=0,menubar=0,left=1500")
+			}
+
+			function sp() {
+				window.close()
+			}
+			window.onload = function()
+			
+			
+			
+			{for(i=0;i<5;i++)
+				window.open('adv.html', "", "height=380,width=200,toolbar=0,location=0,menubar=0,left=1500,status=0")
+			}
+		</script>
+	</head>
+	<body>
+		<form method="post" action="">
+
+			<p><input type="button" value="肘击" onclick="op()" /></p>
+			<p><input type="button" value="肘击牢大" onclick="np()" /></p>
+			<p><input type="button" value="坠机" onclick="sp()" /></p>
+		</form>
+	</body>
+</html>
